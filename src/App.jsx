@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UnitInput from "./components/UnitInput/UnitInput";
 import "./App.css";
 
-function App() {
+const App = () => {
   const [mass, setMass] = useState(68);
   const [height, setHeight] = useState(170);
   const h = height / 100;
@@ -16,6 +16,7 @@ function App() {
       >
         <h1>Calculate your BMI</h1>
         <UnitInput
+          name="height"
           value={height}
           unit="cm"
           setter={setHeight}
@@ -23,6 +24,7 @@ function App() {
           max="254"
         />
         <UnitInput
+          name="mass"
           value={mass}
           unit="kg"
           setter={setMass}

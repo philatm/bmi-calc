@@ -1,8 +1,8 @@
 import './style.css'
 
-const MyInput = ({ value, unit, setter, min, max }) => (
+const MyInput = ({ name, value, unit, setter, min, max }) => (
   <>
-    <h3>Your {unit}: {value} {unit}</h3>
+    <h3>Your {name}: {value} {unit}</h3>
     <input
       id={value}
       value={value}
