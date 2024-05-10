@@ -3,21 +3,22 @@ body {
   padding: 0;
   color:white;
   background-color: #7AB2B2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .main {
-  width: 480px;
-  height: 300px;
+  width: 350px;
   text-align: center;
-  
-  
-  margin: auto;
-  
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  box-sizing: border-box;
+  padding-top: 10em;
+  margin: 0 auto;
 
+
+}
+
+.legend {
+  text-align: left;
 }
