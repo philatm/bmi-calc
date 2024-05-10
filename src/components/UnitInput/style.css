@@ -1,0 +1,9 @@
+input[type="range"] {
+  width:400px;
+  accent-color: #4D869C;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  color: #EEF7FF;
+}
