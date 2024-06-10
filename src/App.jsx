@@ -67,16 +67,6 @@ const App = () => {
 
         </div>
       </div>
-
-      {/*<button
-        onClick={() => {
-          console.log(`mass: ${mass}`);
-          console.log(`h: ${h}`);
-          console.log(mass / (h * h));
-        }}
-      >
-        Show
-      </button>*/}
     </>
   );
 };
